@@ -1,0 +1,51 @@
+.Weather h1 {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1.2;
+
+  text-align: center;
+}
+.Weather .country {
+  font-size: 17px;
+  font-weight: 500;
+}
+.Weather h2 {
+  font-size: 15px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+}
+
+.Weather ul {
+  list-style-type: none;
+}
+.Weather strong {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6b5d5d;
+}
+
+.Weather .emoji {
+  width: 80px;
+  vertical-align: middle;
+}
+.Weather .temperature {
+  text-align: center;
+}
+.Weather .temp {
+  font-size: 84px;
+  color: white;
+}
+.Weather .unit {
+  position: relative;
+  top: -50px;
+}
+.Weather .col-2 {
+  text-align: center;
+}
+.Weather strong {
+  font-weight: 700;
+  margin-top: 20px;
+}

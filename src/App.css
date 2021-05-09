@@ -1,0 +1,17 @@
+footer {
+  text-align: center;
+  opacity: 0.7;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.container {
+  color: black;
+  font-family: "Nunito", sans-serif;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  color: rgb(135, 135, 135);
+  padding: 16px;
+  margin: 30px auto;
+  max-width: 600px;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
