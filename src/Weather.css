@@ -36,7 +36,8 @@
 }
 .Weather .temp {
   font-size: 84px;
-  color: white;
+  text-shadow: 2px 2px 0px #ffffff, 5px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #6b5d5d;
 }
 .Weather .unit {
   position: relative;
