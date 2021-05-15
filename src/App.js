@@ -6,7 +6,7 @@ export default  function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather/>  
+        <Weather defaultCity="Lisbon"/>  
         <footer>
           <a
             href="https://github.com/MarcelaMaximo/app-weather"
