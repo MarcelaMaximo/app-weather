@@ -6,7 +6,6 @@ import FormattedDate from './FormattedDate';
 export default  function Weather(props) {
   const [WeatherData, setWeatherData]= useState({ ready: false});
   function handleResponse (response) {
-    console.log(response.data);
     setWeatherData({
       ready:true,
       date: new Date (response.data.dt * 1000), 
@@ -68,7 +67,7 @@ export default  function Weather(props) {
       </div>
     );
   } else {
-    const apiKey = "fb4290424ee04cbcc7671069110859c2";
+    const apiKey = "20d1aee4a985cfd10c02f2da340417b7";
     let apiUrl =`http://api.openweathermap.org/data/2.5/weather?q=${props.defaultCity}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);  
   
