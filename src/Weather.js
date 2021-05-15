@@ -53,6 +53,7 @@ export default  function Weather(props) {
           <div className="img"> <img
               src={WeatherData.icon}
               className="emoji"
+              alt="cloud"
             />
             </div>
         </div>
