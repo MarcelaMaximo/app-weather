@@ -18,8 +18,7 @@ export default  function Weather(props) {
       min: response.data.main.temp_min,
       max: response.data.main.temp_max,
       humidity: response.data.main.humidity,
-      icon: "http://openweathermap.org/img/wn/10d@2x.png"
-
+      icon: response.data.weather[0].icon,
     });
   }
 
