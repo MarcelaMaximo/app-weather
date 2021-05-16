@@ -50,3 +50,9 @@
   font-weight: 700;
   margin-top: 20px;
 }
+.Weather a {
+  text-shadow: 2px 2px 0px #ffffff, 5px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #6b5d5d;
+  text-decoration: none;
+  font-weight: bold;
+}
