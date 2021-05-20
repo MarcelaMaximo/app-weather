@@ -1,0 +1,12 @@
+.card-body {
+  text-align: center;
+}
+.WeatherForecast {
+  opacity: 0.4;
+}
+.WeatherForecast .temperature {
+  margin-top: 10px;
+}
+.WeatherForecast .day {
+  margin-bottom: 10px;
+}

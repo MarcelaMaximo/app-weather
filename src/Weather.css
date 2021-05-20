@@ -28,7 +28,6 @@
 }
 
 .Weather canvas {
-  width: 100px;
   vertical-align: middle;
 }
 .Weather .temperature {
