@@ -3,10 +3,15 @@
 }
 .WeatherForecast {
   opacity: 0.4;
+  color: black;
 }
 .WeatherForecast .temperature {
   margin-top: 10px;
 }
 .WeatherForecast .day {
   margin-bottom: 10px;
+}
+.WeatherForecast .temperature-max,
+.WeatherForecast .day{
+  font-weight:700;
 }
