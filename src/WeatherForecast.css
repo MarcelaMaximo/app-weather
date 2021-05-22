@@ -4,6 +4,7 @@
 .WeatherForecast {
   opacity: 0.4;
   color: black;
+  margin-top: 15px;
 }
 .WeatherForecast .temperature {
   margin-top: 10px;
@@ -12,6 +13,7 @@
   margin-bottom: 10px;
 }
 .WeatherForecast .temperature-max,
-.WeatherForecast .day{
-  font-weight:700;
+.WeatherForecast .day {
+  font-weight: 700;
+  margin-right: 5px;
 }
