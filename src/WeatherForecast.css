@@ -1,4 +1,4 @@
-.card-body {
+.card-text {
   text-align: center;
 }
 .WeatherForecast {
@@ -17,4 +17,7 @@
 .WeatherForecast .day {
   font-weight: 700;
   margin-right: 5px;
+}
+.WeatherForecast canvas {
+  text-align: center;
 }
