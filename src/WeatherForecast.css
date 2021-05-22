@@ -11,6 +11,7 @@
 }
 .WeatherForecast .day {
   margin-bottom: 10px;
+  text-align: center;
 }
 .WeatherForecast .temperature-max,
 .WeatherForecast .day {
